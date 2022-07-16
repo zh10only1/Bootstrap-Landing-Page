@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+   
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.css' rel='stylesheet' />
+    <title>Frontend Web Dev</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container py-2">
+        <a href="#" class="navbar-brand logo">CODEWEB</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item mx-2 nav-hover">
+              <a href="#learning" class="nav-link">Learning</a>
+            </li>
+
+            <li class="nav-item mx-2 nav-hover">
+              <a href="#questions" class="nav-link">Question Forum</a>
+            </li>
+
+            <li class="nav-item mx-2 nav-hover">
+              <a href="#instructors" class="nav-link">Instructors</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- herosection -->
+
+    <section class="bg-dark text-light p-5 text-center text-md-start">
+      <div class="container">
+        <div class="d-sm-flex justify-content-between align-items-center">
+          <div class="">
+            <h1>Become a <span class="text-primary">Frontend Dev</span></h1>
+            <p style="max-width: 100%" class="lead my-4">
+              Codeweb will help you on the road of becoming a Frontend Developer
+              and equipping you with an arsenal of Various Frontend Techniques
+              that will help you become a highly skilled Frontend Developer
+            </p>
+            <button class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Enroll In Our Course</button>
+          </div>
+          <img
+            class="img-fluid w-50 d-none d-md-block"
+            src="img/undraw_programming_re_kg9v.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Teaching Ways Card Section -->
+
+    <section style="background-color: #f2f2f2" class="p-5">
+      <div class="container">
+        <h1 class="text-center text-dark mb-4">Teaching Platforms</h1>
+        <div class="row">
+          <div class="col-md">
+            <div
+              style="border-radius: 10px"
+              class="card bg-dark text-light my-4 card-hover"
+            >
+              <div class="card-body text-center">
+                <ion-icon
+                  class="my-3"
+                  size="large"
+                  name="laptop-outline"
+                ></ion-icon>
+                <h3 class="card-title mb-3">Online</h3>
+                <p class="card-text lead mb-3">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quam, repellendus libero? Quibusdam neque veritatis libero!
+                </p>
+                <a href="#" class="btn btn-primary btn-lg my-3">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div
+              style="background-color: #4a8db7; border-radius: 10px"
+              class="card text-light my-4 card-hover"
+            >
+              <div class="card-body text-center">
+                <ion-icon
+                  class="my-3"
+                  size="large"
+                  name="person-outline"
+                ></ion-icon>
+                <h3 class="card-title mb-3">Hybrid</h3>
+                <p class="card-text lead mb-3">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quam, repellendus libero? Quibusdam neque veritatis libero!
+                </p>
+                <a href="#" class="btn btn-dark btn-lg my-3">Read More</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md">
+            <div
+              style="border-radius: 10px"
+              class="card bg-dark text-light my-4 card-hover"
+            >
+              <div class="card-body text-center">
+                <ion-icon
+                  class="my-3"
+                  size="large"
+                  name="people-outline"
+                ></ion-icon>
+                <h3 class="card-title mb-3">On-Site</h3>
+                <p class="card-text lead mb-3">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Quam, repellendus libero? Quibusdam neque veritatis libero!
+                </p>
+
+                <a href="#" class="btn btn-primary btn-lg my-3"> Read More </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Learning Section -->
+    <section id="learning" class="p-5 bg-dark text-light">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md">
+            <img
+              src="img/undraw_static_website_re_x70h.svg"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+
+          <div class="col-md p-5 text-center text-md-start">
+            <h3>Learn the fundamentals</h3>
+            <p class="lead mb-3 mt-3 mw-100">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+              esse quis rerum non illo debitis doloribus laboriosam soluta
+              maiores temporibus.
+            </p>
+            <p class="lead mb-3 mw-100">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              laborum, veniam molestiae blanditiis, corrupti repudiandae eum
+              nihil cumque commodi rerum illo totam error sequi! Laborum, rem
+              est placeat molestias officia laboriosam quibusdam voluptatem
+              saepe quos!
+            </p>
+            <a href="#" class="btn btn-primary btn-lg my-3">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section style="background-color: #f2f2f2" class="p-5">
+      <div class="container">
+        <div class="row align-items-center justify-content-between">
+          <div class="col-md order-last p-5 text-center text-md-start">
+            <h3>Learn Javascript Frameworks</h3>
+            <p class="lead mb-3 mt-3 mw-100">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+              esse quis rerum non illo debitis doloribus laboriosam soluta
+              maiores temporibus.
+            </p>
+            <p class="lead mb-3 mw-100">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem
+              laborum, veniam molestiae blanditiis, corrupti repudiandae eum
+              nihil cumque commodi rerum illo totam error sequi! Laborum, rem
+              est placeat molestias officia laboriosam quibusdam voluptatem
+              saepe quos!
+            </p>
+            <a href="#" class="btn btn-dark btn-lg my-3">Read More</a>
+          </div>
+
+          <div class="col-md order-first">
+            <img
+              src="img/undraw_javascript_frameworks_-8-qpc.svg"
+              alt=""
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  FAQ   -->
+
+    <section id="questions" class="p-5 bg-dark">
+      <div class="container mb-5">
+        <h2 class="text-center mb-5 text-light">FAQ</h2>
+        <div class="accordion accordion-flush" id="questions">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseOne"
+                aria-expanded="false"
+                aria-controls="flush-collapseOne"
+              >
+                How do I sign up?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingOne"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta
+                id fuga ea dolorem deserunt sint?
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseTwo"
+                aria-expanded="false"
+                aria-controls="flush-collapseTwo"
+              >
+                How much does the course cost?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingTwo"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos
+                cumque, eligendi obcaecati consequatur vitae quis.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseThree"
+                aria-expanded="false"
+                aria-controls="flush-collapseThree"
+              >
+                What is your location?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingThree"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                consequuntur dolorem, dicta architecto assumenda repudiandae!
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFour"
+                aria-expanded="false"
+                aria-controls="flush-collapseFour"
+              >
+                Will this course help us land a job?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingFour"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                consequuntur dolorem, dicta architecto assumenda repudiandae!
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFive">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#flush-collapseFive"
+                aria-expanded="false"
+                aria-controls="flush-collapseFive"
+              >
+                What are the learning Objectives of this course?
+              </button>
+            </h2>
+            <div
+              id="flush-collapseFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="flush-headingFive"
+              data-bs-parent="#questions"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum
+                consequuntur dolorem, dicta architecto assumenda repudiandae!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Instructor Section -->
+
+    <section style="background-color: #4a8db7" class="p-5" id="instructors">
+      <div class="container">
+        <div class="text-center mb-5 text-light">
+          <h2>Course Instructors</h2>
+          <p class="lead">
+            All of Our instructors have 5+ years of experience working as a web
+            developer in the industry
+          </p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-sm-12 col-md-6 col-lg-3 card-hover">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/men/11.jpg"
+                  class="rounded-circle mb-3 img-fluid"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">John</h3>
+                <p class="card-text mb-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita, reprehenderit fugit quam ab eum illum voluptate
+                  nesciunt accusamus quibusdam asperiores.
+                </p>
+                <div class="d-flex align-items-center justify-content-around">
+                  <a href="#"
+                    ><ion-icon
+                      style="color: black"
+                      size="medium"
+                      name="logo-twitter"
+                    ></ion-icon
+                  ></a>
+                  <a href="#"
+                    ><ion-icon
+                      style="color: black"
+                      size="medium"
+                      name="logo-facebook"
+                    ></ion-icon
+                  ></a>
+                  <a href="#"
+                    ><ion-icon
+                      style="color: black"
+                      size="medium"
+                      name="logo-instagram"
+                    ></ion-icon
+                  ></a>
+                  <a href="#"
+                    ><ion-icon
+                      style="color: black"
+                      size="medium"
+                      name="logo-linkedin"
+                    ></ion-icon
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-3 card-hover">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/women/11.jpg"
+                  class="rounded-circle mb-3 img-fluid"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Judy</h3>
+                <p class="card-text mb-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita, reprehenderit fugit quam ab eum illum voluptate
+                  nesciunt accusamus quibusdam asperiores.
+                </p>
+                <div class="d-flex align-items-center justify-content-around">
+                  <a href="#"
+                    ><ion-icon
+                      style="color: black"
+                      size="medium"
+                      name="logo-twitter"
+                    ></ion-icon
+                  ></a>
+                  <a href="#"
+                    ><ion-icon
+                      style="color: black"
+                      size="medium"
+                      name="logo-facebook"
+                    ></ion-icon
+                  ></a>
+                  <a href="#"
+                    ><ion-icon
+                      style="color: black"
+                      size="medium"
+                      name="logo-instagram"
+                    ></ion-icon
+                  ></a>
+                  <a href="#"
+                    ><ion-icon
+                      style="color: black"
+                      size="medium"
+                      name="logo-linkedin"
+                    ></ion-icon
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-3 card-hover">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/men/9.jpg"
+                  class="rounded-circle mb-3 img-fluid"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Hassan</h3>
+                <p class="card-text mb-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita, reprehenderit fugit quam ab eum illum voluptate
+                  nesciunt accusamus quibusdam asperiores.
+                </p>
+                <div class="d-flex align-items-center justify-content-around">
+                  <a href="#"
+                    ><ion-icon
+                      style="color: black"
+                      size="medium"
+                      name="logo-twitter"
+                    ></ion-icon
+                  ></a>
+                  <a href="#"
+                    ><ion-icon
+                      style="color: black"
+                      size="medium"
+                      name="logo-facebook"
+                    ></ion-icon
+                  ></a>
+                  <a href="#"
+                    ><ion-icon
+                      style="color: black"
+                      size="medium"
+                      name="logo-instagram"
+                    ></ion-icon
+                  ></a>
+                  <a href="#"
+                    ><ion-icon
+                      style="color: black"
+                      size="medium"
+                      name="logo-linkedin"
+                    ></ion-icon
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-3 card-hover">
+            <div class="card bg-light">
+              <div class="card-body text-center">
+                <img
+                  src="https://randomuser.me/api/portraits/women/8.jpg"
+                  class="rounded-circle mb-3 img-fluid"
+                  alt=""
+                />
+                <h3 class="card-title mb-3">Katherine</h3>
+                <p class="card-text mb-4">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Expedita, reprehenderit fugit quam ab eum illum voluptate
+                  nesciunt accusamus quibusdam asperiores.
+                </p>
+                <div class="d-flex align-items-center justify-content-around">
+                  <a href="#"
+                    ><ion-icon
+                      style="color: black"
+                      size="medium"
+                      name="logo-twitter"
+                    ></ion-icon
+                  ></a>
+                  <a href="#"
+                    ><ion-icon
+                      style="color: black"
+                      size="medium"
+                      name="logo-facebook"
+                    ></ion-icon
+                  ></a>
+                  <a href="#"
+                    ><ion-icon
+                      style="color: black"
+                      size="medium"
+                      name="logo-instagram"
+                    ></ion-icon
+                  ></a>
+                  <a href="#"
+                    ><ion-icon
+                      style="color: black"
+                      size="medium"
+                      name="logo-linkedin"
+                    ></ion-icon
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contact Sections -->
+
+    <section style="background-color: #f2f2f2" class="p-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md">
+              <h2 class="text-center mb-4"> Contact Info </h2>
+              <ul  class="list-group list-group-flush lead">
+                <li style="background-color: #f2f2f2" class="list-group-item">
+                  <span class="fw-bold"> Main Location: </span> 221B Baker Street, London
+                </li>
+              </ul>
+
+              <ul  class="list-group list-group-flush lead">
+                <li style="background-color: #f2f2f2" class="list-group-item">
+                  <span class="fw-bold"> Enrollment Phone: </span> (041) 333-666
+                </li>
+              </ul>
+
+              <ul  class="list-group list-group-flush lead">
+                <li style="background-color: #f2f2f2" class="list-group-item">
+                  <span class="fw-bold"> Complaint Phone: </span> (041) 111-666
+                </li>
+              </ul>
+
+              <ul  class="list-group list-group-flush lead">
+                <li style="background-color: #f2f2f2" class="list-group-item">
+                  <span class="fw-bold"> Enrollment Email: </span> enroll@codeweb.com
+                </li>
+              </ul>
+
+              <ul  class="list-group list-group-flush lead">
+                <li style="background-color: #f2f2f2" class="list-group-item">
+                  <span class="fw-bold"> Complaint Email: </span> complaint@codeweb.com
+                </li>
+              </ul>
+          </div>
+
+          <div class="col-md">
+            <div id="map"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <footer class="px-5 pt-5 pb-4 bg-dark text-light text-center">
+      <div class="container">
+        <p class="lead">
+          Copyright &copy; 2021 Codeweb
+        </p>
+        <a href=""> </a>
+      </div>
+
+    </footer>
+
+
+    <!-- modal -->
+
+    <div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="enrollLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p class="lead"> Fill out the fields below to get into our Course </p>
+            <form>
+              <div class="mb-3">
+                <label for="first-name" class="col-form-label">
+                  First Name
+                </label>
+                <input type="text" class="form-control" id="first-name">
+              </div>
+
+              <div class="mb-3">
+                <label for="last-name" class="col-form-label">
+                  Last Name
+                </label>
+                <input type="text" class="form-control" id="last-name">
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="col-form-label">
+                  Email
+                </label>
+                <input type="email" class="form-control" id="email">
+              </div>
+
+              <div class="mb-3">
+                <label for="phone" class="col-form-label">
+                  Phone
+                </label>
+                <input type="tel" class="form-control" id="phone">
+              </div>
+
+
+
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.9.1/mapbox-gl.js'></script>
+
+    <script src="map.js"> </script>
+  </body>
+</html>
